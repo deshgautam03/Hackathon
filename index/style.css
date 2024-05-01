@@ -1,3 +1,37 @@
 *{
     margin: auto;
 }
+#lg {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(8, 48, 101);
+}
+.nv{
+    margin-right: 5px;
+    padding: 20px;
+    text-align: right;
+    width:100%;
+}
+.nv a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(8, 48, 101);
+}
+#top{
+    display:flex;
+    justify-content: space-evenly;
+}
+#btn{
+    background-color:rgb(8, 48, 101);
+    color:white;
+    padding: 5px;
+    border-radius: 3px;
+}
+#btn:hover{
+    background-color:rgb(194, 203, 217) ;
+    color:rgb(8, 48, 101) ;
+    border: solid rgb(8, 48, 101) ;
+}
