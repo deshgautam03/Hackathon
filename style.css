@@ -5,7 +5,7 @@
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-style: normal;
-  color: rgb(8, 48, 101);
+  color: rgb(242, 243, 245);
 }
 .nv{
     margin-right: 5px;
@@ -18,9 +18,10 @@
 .nv a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: smaller;
+    font-weight: bolder;
     padding: 8px;
     text-decoration: none;
-    color: rgb(8, 48, 101);
+    color: rgb(242, 243, 245);
 }
 .nv a:hover{
     color: rgb(92, 114, 144) ;
@@ -30,19 +31,17 @@
     justify-content: space-evenly;
 }
 #btn{
-    background-color:rgb(8, 48, 101);
-    color:white;
-    padding: 5px;
-    border-radius: 3px;
+  background-color:rgb(194, 203, 217) ;
+  color:rgb(0, 0, 0) ;
+  border: solid rgb(242, 243, 245) ;
+  padding: 5px;
+  border-radius: 3px;
 }
 #btn:hover{
-    background-color:rgb(194, 203, 217) ;
-    color:rgb(8, 48, 101) ;
-    border: solid rgb(8, 48, 101) ;
-}
-section{
-    height: 100vh;
-}  
+  background-color:rgb(40 38 58);
+  border: solid rgb(40 38 58);
+  color:white;
+ }  
   /* The dropdown container */
   .dropdown {
     float: left;
@@ -53,7 +52,7 @@ section{
   .dropdown .dropbtn {
     font-size:initial;
     border: none;
-    color: rgb(8, 48, 101); 
+    color: rgb(242, 243, 245); 
     background-color: inherit;
     margin: 0; /* Important for vertical align on mobile phones */
   }
@@ -88,7 +87,69 @@ section{
   }
   #abt{
     text-align: center;
+    margin:150px 0;
+    font-size: 25px;
   }
-  /* img{
-    height: 100vh; 
-  } */
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+  }
+  h3{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: smaller;
+  }
+  .socialbtns, .socialbtns ul, .socialbtns li {
+    margin:0px;
+    padding: 5px;
+  }
+  
+  .socialbtns li {
+      list-style: none outside none;
+      display: inline-block;
+  }
+  
+  .socialbtns .fa {
+      width: 40px;
+      height: 28px;
+      color:  #202125;
+      background-color: #FFF;
+      border: 1px solid #202125;
+      padding-top: 12px;
+      border-radius: 22px;
+  }
+  .socialbtns .fa:hover {
+      color: #FFF;
+      background-color:  #202125;
+      border: 1px solid  #202125;
+  }
+  .socialbtns li a{
+    text-decoration: none;
+  }
+  #footer{
+      background-color: #202125;
+      margin: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+  }
+#dwn{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-family: 'Roborto',sans-serif;
+
+}
+.contacts{
+    padding: 5px;
+    text-align: center;}
+.ending{
+    text-align: center;
+}
