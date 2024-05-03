@@ -27,8 +27,12 @@
     color: rgb(92, 114, 144) ;
 }
 #top{
+  position:sticky;
+    top: 0;
+    background-color:rgb(12 8 45/.4);
     display:flex;
     justify-content: space-evenly;
+    height: 60px;
 }
 #btn{
   background-color:rgb(194, 203, 217) ;
@@ -61,7 +65,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgb(194, 203, 217) ;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -96,18 +100,98 @@
     background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
     background-size: cover;
     background-position: cover;
-    position: relative;
   }
   h3{
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    text-align: center;
   }
   p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: smaller;
   }
+  #svs{
+     height: fit-content;
+     background-color: rgb(40 38 58) ;
+    padding:15px;
+  }
+  .srvs{
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;   
+  }
+  .ss{
+    border-radius: 6px;
+    border: solid grey;
+    height: 150px;
+    width: 150px;
+  }
+
+  .faqs-container {
+    height: fit-content;
+    background-color: rgb(40 38 58);;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 100px;
+  }
+  
+  .faqs-container .questions-container {
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+  }
+  
+  .faqs-container .faq-header {
+    border-radius: 3px;
+    margin: 1px;
+    display: flex;
+    background: #46474b;
+    color: #f1faee;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 2px;
+  }
+  
+  .faqs-container .faq-header .open,
+  .faqs-container .faq-header .close {
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    font-size: 22px;
+    font-weight: bold;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .faq-header .open.active,
+  .faqs-container .faq-header .close.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .faqs-container .faq-header h3 {
+    font-size: smaller;
+    padding: 0 32px;
+    text-align: center;
+  }
+  
+  .faqs-container .content {
+    font-size: smaller;
+    padding: 0 32px;
+    background: rgb(40 38 58);
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .content.active {
+    max-height: 600px;
+  }
+
+
   .socialbtns, .socialbtns ul, .socialbtns li {
     margin:0px;
     padding: 5px;
@@ -121,22 +205,22 @@
   .socialbtns .fa {
       width: 40px;
       height: 28px;
-      color:  #202125;
+      color:  rgb(40 38 58);
       background-color: #FFF;
-      border: 1px solid #202125;
+      border: 1px solid rgb(40 38 58);
       padding-top: 12px;
       border-radius: 22px;
   }
   .socialbtns .fa:hover {
       color: #FFF;
-      background-color:  #202125;
-      border: 1px solid  #202125;
+      background-color: rgb(40 38 58);
+      border: 1px solid  rgb(40 38 58);
   }
   .socialbtns li a{
     text-decoration: none;
   }
   #footer{
-      background-color: #202125;
+      background-color: rgb(40 38 58);
       margin: 0px;
       margin-bottom: 0px;
       padding: 0px;
@@ -144,12 +228,12 @@
 #dwn{
     text-decoration: none;
     color: rgb(255,255,255);
-    font-family: 'Roborto',sans-serif;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .contacts{
     padding: 5px;
     text-align: center;}
 .ending{
     text-align: center;
+    margin: 0;
 }
