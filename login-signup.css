@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color:  rgb(30 26 52);
     color: #6a6f8c;
     display: flex;
     justify-content: center;
@@ -27,10 +28,10 @@ body {
   .login-wrap {
     width: 100%;
     border-radius: 15px;
-    max-width: 500px;
-    min-height: 600px;
+    max-width: 450px;
+    min-height: 550px;
     position: relative;
-    margin-top: 45px;
+    margin-top: 30px;
     background-color: grey;
       filter: drop-shadow(16px 16px 12px black);
   }
@@ -39,7 +40,8 @@ body {
     height: 100%;
     position: absolute;
     padding: 90px 70px 50px 70px;
-    background: rgba(40, 57, 101, 0.9);
+    background: rgba(23, 38, 76, 0.9);
+    border-radius: 15px;
   }
   .login-html .sign-in-htm,
   .login-html .sign-up-htm {
