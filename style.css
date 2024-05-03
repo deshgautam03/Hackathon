@@ -95,7 +95,7 @@
     font-size: 25px;
   }
   .header{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
     background-size: cover;
@@ -129,11 +129,85 @@
     width: 150px;
   }
 
+  button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: none;
+    transition: all .3s ease-in-out;
+}
+
+ #svs .container {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-view {
+  width:250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+  transition: all 0.25s ease-in;
+  background-color:rgb(40 38 58);
+}
+
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 16px 32px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+.sr a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.sr:hover{
+  background-color: steelblue;
+}
+.sr{
+   padding: 10px 10px;
+   border: solid white;
+   border-radius: 5px;
+   background-color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.item-list::-webkit-scrollbar {
+  display: none;
+}
+
+.prev-btn {
+  /* background: none; */
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+}
+
+.item {
+  scroll-snap-align: center;
+  min-width: 120px;
+  height: 120px;
+  background-color:rgb(12 8 45);
+  border-radius:8px;
+}
+
   .faqs-container {
     height: fit-content;
-    background-color: rgb(40 38 58);;
+    background-color: rgb(30 26 52);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 2px 100px;
+    padding: 2px 300px;
   }
   
   .faqs-container .questions-container {
@@ -150,7 +224,7 @@
     align-items: center;
     position: relative;
     cursor: pointer;
-    padding: 5px 2px;
+    padding: 8px 2px;
   }
   
   .faqs-container .faq-header .open,
@@ -180,7 +254,7 @@
   .faqs-container .content {
     font-size: smaller;
     padding: 0 32px;
-    background: rgb(40 38 58);
+    background: rgb(30 26 52);
     line-height: 2;
     max-height: 0;
     overflow: hidden;
@@ -205,22 +279,22 @@
   .socialbtns .fa {
       width: 40px;
       height: 28px;
-      color:  rgb(40 38 58);
+      color:  rgb(30 26 52);
       background-color: #FFF;
-      border: 1px solid rgb(40 38 58);
+      border: 1px solid rgb(30 26 52);
       padding-top: 12px;
       border-radius: 22px;
   }
   .socialbtns .fa:hover {
       color: #FFF;
-      background-color: rgb(40 38 58);
-      border: 1px solid  rgb(40 38 58);
+      background-color: rgb(30 26 52);
+      border: 1px solid  rgb(30 26 52);
   }
   .socialbtns li a{
     text-decoration: none;
   }
   #footer{
-      background-color: rgb(40 38 58);
+      background-color: rgb(30 26 52);
       margin: 0px;
       margin-bottom: 0px;
       padding: 0px;
