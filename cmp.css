@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(30 26 52);
 }
 header {
-    background-color: rgb(73, 72, 72);
+    background-color:  rgb(30 26 52);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -17,7 +17,8 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(86, 81, 143);
+    color: rgb(198, 219, 122); 
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -29,51 +30,12 @@ li {
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
-li:hover {
-    background-color: grey;
-    
-    
-}
 a {
-    color: #333;
-    text-decoration: dotted;
+    color: #ffffff;
+    text-decoration:none;
     
 }
 a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
-/* The dropdown container */
-.dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size:initial;
-    border: none;
-    color: rgb(242, 243, 245); 
-    background-color: inherit;
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(194, 203, 217) ;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to d…

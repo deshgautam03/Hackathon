@@ -6,7 +6,7 @@
     font-family: 'Roborto', sans-serif;
 }
 body{
-    background: rgba(23, 38, 76, 0.9);
+    background: rgb(30 26 52);
 
 }
 form{
@@ -15,8 +15,8 @@ form{
     max-width: 450px;
     height: fit-content;
     padding: 45px;
-    margin:150px 550px;
-    background-color: rgb(23 38 76 );
+    margin:150px 450px;
+    background-color:rgb(86, 81, 143);
       filter: drop-shadow(16px 16px 12px black);
 
 }
@@ -36,8 +36,11 @@ h3{
     font-weight: bolder;
 
 }
+.lbl{
+    color: white;
+}
 #smt{
-    background-color: rgba(0, 7, 25, 0.9);
+    background-color:  rgb(30 26 52);
     color: white;
     padding: 5px;
     border-radius: 6px;

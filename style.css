@@ -1,316 +1,319 @@
 *{
-    margin: auto;
-}  
+  margin: auto;
+}
 #lg {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: rgb(242, 243, 245);
+font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+font-style: normal;
+color: rgb(242, 243, 245);
 }
 .nv{
-    margin-right: 5px;
-    padding: 20px;
-    text-align: right;
-    width:100%;
-    display: flex;
-    justify-content: space-evenly;
+  margin-right: 5px;
+  padding: 20px;
+  text-align: right;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .nv a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: smaller;
-    font-weight: bolder;
-    padding: 8px;
-    text-decoration: none;
-    color: rgb(242, 243, 245);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  font-weight: bolder;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(242, 243, 245);
 }
 .nv a:hover{
-    color: rgb(92, 114, 144) ;
+  color: rgb(92, 114, 144) ;
 }
 #top{
-  position:sticky;
-    top: 0;
-    background-color:rgb(12 8 45/.4);
-    display:flex;
-    justify-content: space-evenly;
-    height: 60px;
+position:sticky;
+  top: 0;
+  background-color:rgb(12 8 45/.4);
+  display:flex;
+  justify-content: space-evenly;
+  height: 60px;
 }
 #btn{
-  background-color:rgb(194, 203, 217) ;
-  color:rgb(0, 0, 0) ;
-  border: solid rgb(242, 243, 245) ;
-  padding: 5px;
-  border-radius: 3px;
+background-color:rgb(194, 203, 217) ;
+color:rgb(0, 0, 0) ;
+border: solid rgb(242, 243, 245) ;
+padding: 5px;
+border-radius: 3px;
 }
 #btn:hover{
-  background-color:rgb(40 38 58);
-  border: solid rgb(40 38 58);
-  color:white;
- }  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size:initial;
-    border: none;
-    color: rgb(242, 243, 245); 
-    background-color: inherit;
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(194, 203, 217) ;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  #abt{
-    text-align: center;
-    margin:150px 0;
-    font-size: 25px;
-  }
-  .header{
-    min-height: 80vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
-    background-size: cover;
-    background-position: cover;
-  }
-  h3{
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-align: center;
-  }
-  p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: smaller;
-  }
-  #svs{
-     height: fit-content;
-     background: rgb(30 26 52);
-
-    padding:15px;
-  }
-  .srvs{
-    padding: 8px;
-    display: flex;
-    justify-content: space-evenly;   
-  }
-  .ss{
-    border-radius: 6px;
-    border: solid grey;
-    height: 150px;
-    width: 150px;
-  }
-
-  button{
-    border: none;
-    cursor: pointer;
-    color: white;
-    background: none;
-    transition: all .3s ease-in-out;
+background-color:rgb(40 38 58);
+border: solid rgb(40 38 58);
+color:white;
+}  
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
- #svs .container {
-  height: fit-content;
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size:initial;
+  border: none;
+  color: rgb(242, 243, 245); 
+  background-color: inherit;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(194, 203, 217) ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#abt{
+  text-align: center;
+  margin:150px 0;
+  font-size: 25px;
+}
+.header{
+  min-height: 80vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(84, 84, 88, 0.7),rgba(43, 44, 50, 0.7)) ,url(https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+h3{
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: smaller;
+}
+#svs{
+   height: fit-content;
+   background: rgb(30 26 52);
+
+  padding:15px;
+}
+.srvs{
+  padding: 8px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;   
+}
+.ss{
+  border-radius: 6px;
+  border: solid grey;
+  height: 150px;
+  width: 150px;
+}
+.mid{
+  margin-top: 200px;
+  font-size: 35px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: none;
+  transition: all .3s ease-in-out;
+}
+
+#svs .container {
+height: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .carousel-view {
-  width:350px;
-  margin: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 5px;
-  transition: all 0.25s ease-in;
-  background-color:rgb(40 38 58);
-  border-radius: 8px;
+width:350px;
+margin: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 5px;
+transition: all 0.25s ease-in;
+background-color:rgb(86, 81, 143);
+border-radius: 8px;
 }
 
 .carousel-view .item-list {
-  max-width: 950px;
-  width: 70vw;
-  padding: 16px 32px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 48px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  overflow: auto;
-  scroll-snap-type: x mandatory;
+max-width: 950px;
+width: 70vw;
+padding: 16px 32px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 48px;
+scroll-behavior: smooth;
+transition: all 0.25s ease-in;
+-ms-overflow-style: none; /* IE and Edge */
+scrollbar-width: none; /* Firefox */
+overflow: auto;
+scroll-snap-type: x mandatory;
 }
 .sr a{
-  text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255);
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255);
 }
 .sr:hover a:hover{
-  color: rgb(245, 245, 250);
-  font-weight: 900;
+color: rgb(245, 245, 250);
+font-weight: 900;
 }
 .cic{
-  color: white;
+color: white;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .item-list::-webkit-scrollbar {
-  display: none;
+display: none;
 }
 
 .prev-btn {
-  /* background: none; */
-  cursor: pointer;
+/* background: none; */
+cursor: pointer;
 }
 
 .next-btn {
-  cursor: pointer;
+cursor: pointer;
 }
 
 .item {
-  scroll-snap-align: center;
-  min-width: 120px;
-  height: 120px;
-  background-color:rgb(12 8 45);
-  border-radius:8px;
+scroll-snap-align: center;
+min-width: 120px;
+height: 120px;
+background-color:rgb(12 8 45);
+border-radius:8px;
 }
 
-  .faqs-container {
-    height: fit-content;
+.faqs-container {
+  height: fit-content;
+  background-color: rgb(30 26 52);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2px 275px;
+}
+
+.faqs-container .questions-container {
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+}
+
+.faqs-container .faq-header {
+  border-radius: 3px;
+  margin: 1px;
+  display: flex;
+  background: rgb(86, 81, 143);
+  color: #f1faee;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 8px 2px;
+}
+
+.faqs-container .faq-header .open,
+.faqs-container .faq-header .close {
+  position: absolute;
+  right: 0;
+  padding: 0 32px;
+  font-size: 22px;
+  font-weight: bold;
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: all 500ms;
+}
+
+.faqs-container .faq-header .open.active,
+.faqs-container .faq-header .close.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faqs-container .faq-header h3 {
+  font-size: smaller;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.faqs-container .content {
+  font-size: smaller;
+  padding: 0 32px;
+  background: rgb(30 26 52);
+  line-height: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+
+.faqs-container .content.active {
+  max-height: 600px;
+}
+
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin:0px;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 40px;
+    height: 28px;
+    color:  rgb(30 26 52);
+    background-color: #FFF;
+    border: 1px solid rgb(30 26 52);
+    padding-top: 12px;
+    border-radius: 22px;
+}
+.socialbtns .fa:hover {
+    color: #FFF;
     background-color: rgb(30 26 52);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 2px 275px;
-  }
-  
-  .faqs-container .questions-container {
-    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
-    padding: 8px;
-  }
-  
-  .faqs-container .faq-header {
-    border-radius: 3px;
-    margin: 1px;
-    display: flex;
-    background: #46474b;
-    color: #f1faee;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    padding: 8px 2px;
-  }
-  
-  .faqs-container .faq-header .open,
-  .faqs-container .faq-header .close {
-    position: absolute;
-    right: 0;
-    padding: 0 32px;
-    font-size: 22px;
-    font-weight: bold;
-    transform: translateY(-8px);
-    opacity: 0;
-    transition: all 500ms;
-  }
-  
-  .faqs-container .faq-header .open.active,
-  .faqs-container .faq-header .close.active {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .faqs-container .faq-header h3 {
-    font-size: smaller;
-    padding: 0 32px;
-    text-align: center;
-  }
-  
-  .faqs-container .content {
-    font-size: smaller;
-    padding: 0 32px;
-    background: rgb(30 26 52);
-    line-height: 2;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 500ms;
-  }
-  
-  .faqs-container .content.active {
-    max-height: 600px;
-  }
-
-
-  .socialbtns, .socialbtns ul, .socialbtns li {
-    margin:0px;
-    padding: 5px;
-  }
-  
-  .socialbtns li {
-      list-style: none outside none;
-      display: inline-block;
-  }
-  
-  .socialbtns .fa {
-      width: 40px;
-      height: 28px;
-      color:  rgb(30 26 52);
-      background-color: #FFF;
-      border: 1px solid rgb(30 26 52);
-      padding-top: 12px;
-      border-radius: 22px;
-  }
-  .socialbtns .fa:hover {
-      color: #FFF;
-      background-color: rgb(30 26 52);
-      border: 1px solid  rgb(30 26 52);
-  }
-  .socialbtns li a{
-    text-decoration: none;
-  }
-  #footer{
-      background-color: rgb(30 26 52);
-      margin: 0px;
-      margin-bottom: 0px;
-      padding: 0px;
-  }
+    border: 1px solid  rgb(30 26 52);
+}
+.socialbtns li a{
+  text-decoration: none;
+}
+#footer{
+    background-color: rgb(30 26 52);
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
 #dwn{
-    text-decoration: none;
-    color: rgb(255,255,255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .contacts{
-    padding: 5px;
-    text-align: center;}
+  padding: 5px;
+  text-align: center;}
 .ending{
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }

@@ -1,37 +1,127 @@
-{% extends 'classroom/base.html' %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Classroom</title>
+   <link rel="stylesheet" href="home .css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+   </head>
+<body>
+<header class="header">
+   <section class="flex">
+     <h1>Classroom Management</h1>
+   <section class="courses">
+      <h1 class="heading">Recorded Lectures</h1>
+      <div class="box-container">
+       <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>Python Programming</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
 
+      <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>Maths IV</h3>
+               <!--<span>03-05-2024</span>-->
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
 
-<div class="container">
-  <div class="jumbotron">
-{% if teacher.teacher_assignment.count == 0 %}
-  <h2>No Assignments Uploaded Yet</h2>
-{% else %}
-  <table class="table">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Assignment Name</th>
-        <th scope="col">Uploaded Date</th>
-        <th scope="col">Download</th>
-        <th scope="col">Update</th>
-        <th scope="col">Delete</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for assignment in teacher.teacher_assignment.all %}
-        <tr>
-          <th scope="row">{{ forloop.counter }}</th>
-          <td>{{ assignment.assignment_name }}</td>
-          <td>{{ assignment.created_at }}</td>
-          <td><a href="{{ assignment.assignment.url }}" class="btn btn-primary" target="_blank">Download</a></td>
-          <td><a href="{% url 'classroom:update_assignment' id=assignment.id %}" class="btn btn-primary">Update</a></td>
-          <td><a href="{% url 'classroom:assignment_delete' id=assignment.id %}" class="btn btn-danger">Delete</a></td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-{% endif %}
-</div>
-</div>
-{% endblock %}
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>TAFL</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>Operating System</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>JAVA</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            
+            <div class="info">
+               <h3>Human Values</h3>
+
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="vide.jpg" alt="" height="55px">
+            <span>05 videos</span>
+         </div>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+   </div>
+</section>
+
+<section id="footer">
+   <div class="contacts">
+       <h3>Connect with us</h3>
+       <div align="center" class="socialbtns">
+           <ul>
+           <li><a href="https://github.com/cyber-scribe" class="fa fa-lg fa-github"></a></li>
+           <li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
+           <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
+           <li><a href="#" class="fa fa-lg fa-telegram"></a></li>
+           <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+           </ul>
+           </div>
+       <div class="ending">
+       <a href="#"target="_blank" id="dwn">&copy; 2024 Smart Campus Solutions</a>
+       </div>
+   </section> 
+
+<script src="cls.js"></script>
+</body>
+</html>
